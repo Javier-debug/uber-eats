@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-md-3">
+    <h1>Todos los restaurantes</h1>
+    <app-collapse></app-collapse>
+  </div>
+  <div class="col-md-9">
+    <div class="row">
+      <div *ngFor="let restaurant of (this.restaurants$ | async);">
+        <app-card [restaurant]="restaurant"></app-card>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+.circule {
+  border-radius: 70%;
+  margin: 5px;
+  border: none;
+  background-color: rgb(175, 175, 175);
+  color: green;
+}
+
+.cardFood {
+  width: 19rem; 
+  margin: 10px;
+  transition: .3s;
+}
+
+.cardFood:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(40, 202, 0, 0.75);
+-moz-box-shadow: 0px 0px 18px 0px rgba(40, 202, 0, 0.75);
+box-shadow: 0px 0px 18px 0px rgba(40, 202, 0, 0.75);
+}

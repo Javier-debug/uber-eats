@@ -1,0 +1,31 @@
+.logo {
+  width: 150px;
+  height: 75px;
+}
+
+.circule {
+  border-radius: 25px;
+  margin: 5px;
+  border: none;
+  transition: .3s;
+
+}
+
+.circule:hover {
+  
+  -webkit-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+}
+
+.icon {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.lupa {
+  margin-right: 5px;
+  width: 20px;
+  height:20px;
+}

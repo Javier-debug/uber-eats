@@ -1,0 +1,15 @@
+<div class="cardFood" (click)="goToUrl()">
+  <img class="card-img-top" style="height: 200px;" src="{{restaurant.image}}" alt="Card image cap">
+  <div class="card-body">
+      <div class="row">
+        <div class="col-md-8">
+          <h6>{{ restaurant.name }}</h6>
+        </div>
+        
+        <div class="circule col-md-2">
+          {{ restaurant.score }}
+        </div>
+      </div>
+    <p>Costo de envío: {{ restaurant.shippingPrice }} {{ restaurant.time }} {{ restaurant.price }}</p>
+  </div>
+</div>
